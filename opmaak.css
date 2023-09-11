@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
+
+
+p{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+
+#tekst1
+{
+    color: darkblue;
+}
+
+.teksten
+{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#klas
+{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
