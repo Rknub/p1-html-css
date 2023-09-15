@@ -1,0 +1,17 @@
+body{
+    background-color: cornflowerblue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+table{
+    border-style: solid;
+    border-color: aqua;
+}
+
+td{
+    border-style: solid;
+    border-color: aqua;
+}

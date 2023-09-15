@@ -37,17 +37,21 @@ nav a {
 nav img {
   width: 5vw;
 }
-.background{
-  height: 619px;
-  width: 1536px;
-}
+
 body{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+  background-image: url(./img/background.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
   color: white;
   position: absolute;
-  top: 5%;
-  padding: 25%;
-  font-size: xx-large;
+  left: 20%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50% -50%);
+  font-size: 45px;
 }
