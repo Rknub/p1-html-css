@@ -1,5 +1,38 @@
-body{
-    background-image: url(testgif.gif);
+/* Zorg dat de hacker afbeelding als achtergrond wordt laten zien */
+body {
+    background-image: url('./imgs/background.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-}
+  }
+  
+  /* Breedte is de breedte van het scherm */
+  /* Hoogte is de hoogte van het scherm, exclusief de navigatiebar */
+  /* De hele website heeft een zwarte achtergrond kleur */
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  /* Elke section heeft een hoogte en een breedte van het scherm */
+  section {
+    width: 100%;
+    height: calc(100% - 60px); /* 60px is de hoogte van de navigatiebar */
+    padding: 20px; /* Voeg wat ruimte toe rondom de inhoud van elke sectie */
+  }
+  
+  /* De footer heeft dezelfde kleur als de navigatiebar */
+  footer {
+    background-color: #333; /* Pas de kleur aan zoals gewenst */
+    color: white; /* Stel de tekstkleur in op wit of een andere gewenste kleur */
+    font-family: 'Goldman', sans-serif; /* Gebruik het Goldman-lettertype van Google Fonts */
+    padding: 10px; /* Voeg wat ruimte toe rondom de inhoud van de footer */
+  }
+  
+  /* Alle titels zijn dikgedrukt */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
