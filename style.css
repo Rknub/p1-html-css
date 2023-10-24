@@ -22,7 +22,7 @@ body {
     height: calc(100% - 60px); /* 60px is de hoogte van de navigatiebar */
     padding: 20px; /* Voeg wat ruimte toe rondom de inhoud van elke sectie */
   }
-  
+    
   /* De footer heeft dezelfde kleur als de navigatiebar */
   footer {
     background-color: #333; /* Pas de kleur aan zoals gewenst */
